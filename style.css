@@ -730,6 +730,20 @@ footer {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .image-placeholder {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+    }
 
     .section-title {
         font-size: 2rem;
